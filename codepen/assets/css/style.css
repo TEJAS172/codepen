@@ -1,0 +1,378 @@
+nav{
+    background: black;
+    width: 94%;
+    height: 50px;
+    padding: 10px 40px;
+}
+.te{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+
+}
+.te h1,.te p{
+    color:aliceblue;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+.tej{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+.tt ul{
+    display: inline-flex;
+    list-style: none;
+}
+.tt ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.num{
+    color: aliceblue;
+
+}
+section ul{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 40px;
+}
+header{
+    width: 94%;
+    height: 26px;
+    background-color: white;
+    padding: 10px 40px;
+}
+.er{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ee ul{
+    display: inline-flex;
+    list-style: none; 
+}
+
+.ee ul li a{
+    padding: 15px;
+    color: black;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.et{
+    display: inline-block;
+    padding-top: 10px;
+}
+.et input{
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    border: 1px solid rgb(0,0,0,0.3);
+    padding: 18px;
+}
+.et button, .text button{
+    padding: 11px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(40, 40, 252);
+    color:aliceblue;
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    row-gap: 10px;
+    text-decoration: none;
+}
+.project,section,ul,li,a{
+    text-decoration: none;
+}
+.con,.cont{
+    background: aliceblue;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    padding: 0px 100px;
+    width: auto;
+    height: 450px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.cont{
+    background: palegoldenrod;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    padding: 0px 100px;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+    margin: 70px 30px 30px 30px;
+}
+.cont .imag{
+    
+}
+.ima{
+    margin-top: 140px;
+}
+.tex{
+    margin-top: 20px;
+}
+.tex h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+.tex p{
+    font-size: 18px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.466);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tex button{
+    padding: 9px 30px;
+    box-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+    font-size: 16px;
+    color: aliceblue;
+    background: black;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+.a3{
+    margin-top: 38px;
+}
+.text{
+    text-align: justify;
+    margin-top: 50px;
+}
+.text h3{
+ font-size: 18px;
+ color: blue;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ letter-spacing: 2px;
+ font-style: oblique;
+}
+.text h1{
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: -10px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+.text p{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+.image img{
+    margin-top: 73px;
+}
+
+.aa{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.a1 h1{
+    font-size: 34px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.a1{
+    height: 600px;
+    width: 340px;
+    padding-top: 130px;
+}
+.b1{
+    height: 600px;
+    width: 380px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-top: 80px;
+}
+.b2 h1,.b3 h1{
+    font-size: 20px;
+    text-align: end;
+    
+}
+.b2{
+    margin-left: 20px;
+}
+.b3{
+    margin-left: -3px;
+}
+.b3{
+    height: 80px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 8px;
+}
+.b3 h1{
+    color: white;
+    padding-right: 17px;
+}
+.a1 p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.606);
+    text-align: justify;
+    letter-spacing: 2px;
+}
+#a2{
+    padding: 11px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(40, 40, 252);
+    color:aliceblue;
+    margin-top: 30px;
+    float: left;
+} 
+#g1{
+    margin-top: 40px;
+    float: left;
+}
+.coo{
+        background:  rgb(179, 212, 231);
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 10px;
+        /* padding: 0px 100px; */
+        width: auto;
+        height: 300px;
+        justify-content: space-evenly;
+        margin: 30px 30px;
+        letter-spacing: 2px;
+}
+.coo1{
+    margin-top: 30px;
+}
+.coo1 h1{
+    text-align: justify;
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+}
+.coo1 p{
+    text-align: justify;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.687);
+    font-weight: bold;
+    font-size: 16px;
+}
+.coo2 #name{
+    padding: 16px 60px 16px 30px;
+    border-radius: 30px;
+    border: none;
+}
+#cc{
+    padding: 16px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(40, 40, 252);
+    color:aliceblue;
+    margin-left: -50px;
+} 
+.coo2{
+    margin-top: 130px;
+}
+
+.holder{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    /* padding: 0px 100px; */
+    width: auto;
+    height: 150px;
+    justify-content: space-evenly;
+    margin: 60px 30px;
+    letter-spacing: 2px;
+}
+.holder3{
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px;
+      /* padding: 0px 100px; */
+      width: auto;
+      height: 350px;
+      justify-content: space-evenly;
+      margin: 60px 30px;
+      letter-spacing: 2px;
+  }
+.holder .content p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.484);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+.holder .content h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.holder3 .content1 img{
+    width: 280px ;
+    height: 220px;
+    margin-top: 30px;
+}
+.holder3 .content1 p{
+    line-height: 30px;
+    text-align: justify;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.824);
+    font-family: sans-serif;
+}
+.holder3 .content1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+    font-family: sans-serif;
+    text-align: justify;
+}
