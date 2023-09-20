@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/p4.css">
+</head>
+<body>
+    <marquee bgcolor="pink" behavior="alternate">This is Tejas</marquee><br><hr>
+    <marquee bgcolor="pink" behavior="scroll">Tejasthosh</marquee><br><hr>
+    <marquee bgcolor="pink" behavior="slide" direction="right" onmouseenter="stop()"
+    onmouseleave="start()" id="tej"   >tejasthosh</marquee>
+    <script>
+        document.getElementById("tej").onmouseenter() = function(){
+          document.getElementById("tej").start();
+        }
+        document.getElementById("tej").onmouseleave() = function(){
+            document.getElementById("tej").start();
+        }
+    </script>
+</body>
+</html>
